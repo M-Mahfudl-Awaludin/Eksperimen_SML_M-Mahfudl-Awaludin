@@ -32,7 +32,7 @@ jobs:
       # Run preprocessing script
       - name: Run preprocess.py script
         run: |
-          python scripts/automate_preprocess.py
+          python automate_preprocess.py
 
       # Commit dan push hasil dataset yang sudah diproses
       - name: Commit processed data
