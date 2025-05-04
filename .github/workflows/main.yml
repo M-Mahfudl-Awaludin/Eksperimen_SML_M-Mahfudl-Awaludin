@@ -37,7 +37,7 @@ jobs:
       # Commit dan push hasil dataset yang sudah diproses
       - name: Commit processed data
         run: |
-          git add data/processed_data.csv
+          git add processed_data.csv
           git commit -m "Update processed data"
           git push
         env:
