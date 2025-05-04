@@ -37,9 +37,7 @@ jobs:
       # Commit dan push hasil dataset yang sudah diproses
       - name: Commit processed data
         run: |
-          git config --global user.email "your_email@example.com"
-          git config --global user.name "Your Name"
-          git add data/processed_data.csv
+          git add data/processed/processed_data.csv
           git commit -m "Update processed data"
           git push
         env:
