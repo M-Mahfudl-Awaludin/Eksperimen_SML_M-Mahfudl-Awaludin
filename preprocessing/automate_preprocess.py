@@ -82,5 +82,5 @@ def preprocess_data(file_path, output_path):
 # --- Jalankan fungsi preprocessing dengan file path ---
 if __name__ == "__main__":
     input_file_path = 'heart_attack_raw.csv'  # Ganti dengan path file dataset Anda
-    output_file_path = 'processed_data.csv'  # Ganti dengan path output yang diinginkan
+    output_file_path = 'preprocessing/processed_data.csv'  # Ganti dengan path output yang diinginkan
     X_train, X_test, y_train, y_test = preprocess_data(input_file_path, output_file_path)
